@@ -34,8 +34,50 @@
             font-family: sans-serif;
            color: #4a4a4a;
         }
+        .two-columns{
+           font-size: 0; 
+           text-align: center;
+           padding: 35px 0 40px;
+        }
+        .two-columns .column{
+            width: 100%;
+            max-width: 300px;
+            display: inline-block;
+            vertical-align: top;
+        }
+        .two-columns .padding{
+            padding: 20px;
+        }
+        .two-columns .content{
+            font-size: 15px;
+            text-align: left;
+            line-height: 20px;
+        }
+        .btn{
+            background-color: #1e5d7b;
+            color: #ffffff;
+            text-decoration: none;
+            padding:  12px;
+            border-radius: 8px;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+        }
+        .two-columns.last{
+            padding: 0!important;
+        }
+        a{
+            text-decoration: none;
+            color:#37cbbf;
+        }
 
 		@media screen and (max-width: 600px) { 
+            .two-columns .padding{
+            padding-right: 0!important;
+            padding-left: 0!important;
+        }
+        .two-columns .content img{
+           width: 300px!important;; 
+        }
 
 		}
 	</style>
@@ -85,6 +127,7 @@
                     <table width="100%">
                         <tr>
                             <td class="two-columns">
+                                <!------------column 1---------->
                                 <table class="column">
                                     <tr>
                                         <td class="padding">
@@ -94,6 +137,41 @@
                                             </table>
                                         </td>
                                     </tr>
+                                    <tr>
+                                        <td style="padding: 10px;">
+                                        <p style="font-size: 17px; font-weight: bold; text-align:left ;">
+                                          Build Responsive Email  
+                                        </p>
+                                    <p style="padding-bottom: 15px; font-size: 12px; text-align:left">
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                         Accusantium cupiditate quasi quae laborum architecto voluptatibus qui sequi, incidunt minima dolore provident elit ad?
+                                    </p>
+                                    <a href="#" class="btn"style="font-size: 20px;">Html email</a>
+                                </td>
+                                    </tr>
+                                </table>
+                                <!------------column 2------------>
+                                <table class="column">
+                                    <tr>
+                                        <td class="padding">
+                                            <table class="content">
+                                                <a href="#"><img src="img/woman-teal.jpg" alt="womman" width="260" style="max-width: 260px; border-radius: 8px;"></a>
+                                            
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding: 10px;">
+                                        <p style="font-size: 17px; font-weight: bold;">
+                                          Build Responsive Email  
+                                        </p>
+                                    <p style="padding-bottom: 15px; font-size: 12px; text-align:left ;">
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                         Accusantium cupiditate quasi quae laborum architecto voluptatibus qui sequi, incidunt minima dolore provident elit ad?
+                                    </p>
+                                    <a href="#" class="btn" style="font-size: 20px;">Get Started</a>
+                                </td>
+                                    </tr>
                                 </table>
 
                             </td>
@@ -102,9 +180,49 @@
                 </td>
             </tr>
             <!------email logo---------->
+            <tr>
+                <td style=" background-color: #eaf6fb; border-top:4px solid #21c6b8 ; border-bottom: 5px solid #21c6b8 ;">
+                    <table class="width">
+                        <tr>
+                            <td class="two-columns last">
+                                <table class="column">
+                                    <tr>
+                                        <td> 
+                                            <a href="#"><img src="img/email-1.jpg" alt="email 1" width="300" style="max-width: 300px;"></a>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table class="column">
+                                    <tr>
+                                        <td> 
+                                            <a href="#"><img src="img/email-2.jpg" alt="email 2" width="300" style="max-width: 300px;"></a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
             <!-------------footer section---------------->
+            <tr>
+                <td style="border-top: 2px solid #21c6b8; background-color:  #565656;border-bottom: 4px solid #21c6b8;">
+                    <table width="100%">
+                        <tr>
+                            <td style="padding: 50px 20px; text-align: center; color: #ffffff;">
+                              <a href="#"><img src="img/html-email-white.png" alt="logo" width="200"></a>
+                              <p style="padding-top: 10px;">Html email</p>
+                              <p>123 street , london england</p>
+                              <p><a href="#">123@hotmail.gmail</a></p>
+                              <p><a href="#">95656231451</a></p>
+                              <p><a href="#">Unsubsrcibe</a></p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
         </table>
     </center>
 
-</body>
+</body>cbbf
 </html>
